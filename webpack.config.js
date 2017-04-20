@@ -3,7 +3,7 @@ var config = {
     path: './react/src/main.js',
   },
   output: {
-    path: '/Users/Liam/challenges/side-projects/boilerplate-react-rails/app/assets/javascripts',
+    path: __dirname + '/app/assets/javascripts',
     filename: 'bundle.js'
   },
   module: {
